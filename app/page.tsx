@@ -1,6 +1,7 @@
+"use client";
 
-
-
+import { useState, useEffect } from "react";
+import Image from "next/image";
 import { fetchCars } from "@/utils";
 import { fuels, yearsOfProduction } from "@/constants";
 import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@/components";
